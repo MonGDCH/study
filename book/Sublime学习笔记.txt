@@ -1,0 +1,38 @@
+# 操作技巧
+1. 	Ctrl + P 				搜索文件
+2. 	Ctrl + P [@] 			搜索函数
+3. 	Ctrl + [ 				左对齐代码块
+4. 	Ctrl + ] 				右对齐代码块
+5. 	Ctrl + R				定位函数
+6. 	Ctrl + G				定位到行
+7. 	Ctrl + D 				连续选择相同内容，适用于批量修改
+8. 	Ctrl + U 				连续减少选择相同内容，适用于批量修改
+9. 	Ctrl + Shift+L 			多行选择
+10.	Ctrl + J 				多行合并
+11.	Ctrl + Shift + ↑/↓ 		移动当前行
+12.	Ctrl + N				在当前窗口创建一个新标签
+13.	Ctrl + W				关闭当前标签
+14. Ctrl + Shift+T 			打开之前关闭的tab页
+
+
+# 安装插件
+
+1. 直接安装：
+	直接下载安装包解压缩到Packages目录（菜单->preferences->packages）。
+2. 使用Package Control组件安装
+
+
+# 常用插件
+
+SublimeLineter			: 确认错误
+HTML5 					: HTML5补助功能
+BracketHighlighter		: 强调开始及结束标签
+SublimeLinter-html-tidy	: 提示HTML5语法错误
+SublimeLinter-jshint	: 提示JavaScript语法错误
+SublimeLinter-json		: 提示JSON语法错误
+SublimeLinter-phplint	: 提示PHP语法错误
+SublimeCodeIntel		: 可以跳转到函数及定义变量的行
+abacus					: 整齐的排列=及;
+Phoenix Theme			: 可自定义Sublime Text的外观
+PHPfmt 					: PHP格式化,PHP5.6某些版本可用，PHP7可用。[需要配置"php_bin": "php目录"]（Ctrl+F11）
+DocBlockr 				: 代码自动注释生成
